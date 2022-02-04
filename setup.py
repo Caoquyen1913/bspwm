@@ -93,7 +93,7 @@ def showWelcomeScreen():
     cmd('clear')
     cprint('===========================================================', fg='y', style='b')
     cprint(':: The Duck Channel´s Ubuntu 21.04 bspwm Style ::', fg='g', style='b')
-    cprint('https://github.com/theduckchannel/bspwm-ubuntu', fg='c', style='b')
+    cprint('https://github.com/hq/bspwm-ubuntu', fg='c', style='b')
     cprint('===========================================================', fg='y', style='b')
     pause()
 
