@@ -23,8 +23,8 @@ Hi all, this is repository for install one light bspwm environment on Ubuntu 21.
 
 You need clone this repository:
 ```console
-$ git clone https://github.com/theduckchannel/bspwm-ubuntu.git
-$ cd bspwm-ubuntu
+$ git clone https://github.com/Caoquyen1913/bspwm.git
+$ cd bspwm
 $ ./setup.py
 ```
 
@@ -56,6 +56,5 @@ And be patient because the command above will install every packages you need fo
 My goal here as a creator is to deliver content for people who are new to Linux, as well as current users who want to learn more or customize their systems. I'm also looking to improve my setup to help make me more productive. Things like a new microphone, a decent camera, and hopefully a dedicated system for video rendering. If you look at my channel's videos, I've been steadily increasing my content output, and this, of course, takes time to plan, record, edit and render.
 
 
-If you like my content, please subscribe to my [channel](https://www.youtube.com/c/TheDuckChannel). 
 
 thank you. 
