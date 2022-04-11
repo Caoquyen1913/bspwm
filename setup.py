@@ -92,8 +92,8 @@ def pause(param=3):
 def showWelcomeScreen():
     cmd('clear')
     cprint('===========================================================', fg='y', style='b')
-    cprint(':: The Duck Channel´s Ubuntu 21.04 bspwm Style ::', fg='g', style='b')
-    cprint('https://github.com/hq/bspwm-ubuntu', fg='c', style='b')
+    cprint(':: Ubuntu 21.04 bspwm  ::', fg='g', style='b')
+    cprint('https://github.com/hq/bspwm', fg='c', style='b')
     cprint('===========================================================', fg='y', style='b')
     pause()
 
@@ -113,13 +113,13 @@ def installNonRegularPackages():
     cprint('\r\n:: Install Non Regular Packages...', fg='y', style='b')
     pause(2)
     cmd('fc-cache -fv')
-    cprint('\r\n:: Install i3lock-color...', fg='g', style='b')
-    cmd('git clone https://github.com/Raymo111/i3lock-color.git')
-    cmd('cd i3lock-color')
-    os.chdir('i3lock-color/')
-    cmd('sudo ./install-i3lock-color.sh')
+    cprint('\r\n:: Install besterlockscreen...', fg='g', style='b')
+    cmd('git clone https://github.com/thetarkus/besterlockscreen')
+    cmd('cd besterlockscreen')
+    os.chdir('besterlockscreen/')
+    cmd('sudo make install')
     os.chdir('../')
-    cmd('sudo rm -rf i3lock-color')
+    cmd('sudo rm -rf besterlockscreen')
 
     pause()
 
